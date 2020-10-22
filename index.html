@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Academic deserter, data scientist, aspiring developer.">
   <title>Bruce's Personal Site</title>
-  <link rel="stylesheet" href="css/master.css">
   <link rel="icon" href="images/b.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
     <h2>
       📍 Toronto
       <br>
-      Academic deserter, data scientist, aspiring web developer.
+      Academic deserter, data scientist, aspiring developer.
     </h2>
   </header>
 
@@ -80,7 +81,7 @@
       <h4>
         Coding
       </h4>
-      <table>
+      <table class="coding-tb">
         <tr>
           <td>Python</td>
           <td>★★★★★</td>
@@ -97,6 +98,8 @@
           <td>HTML</td>
           <td>★★★☆☆</td>
         </tr>
+      </table>
+      <table class="coding-tb">
         <tr>
           <td>CSS</td>
           <td>★★★☆☆</td>
@@ -105,7 +108,23 @@
           <td>JavaScript</td>
           <td>★★★☆☆</td>
         </tr>
+        <tr>
+          <td>Node.js</td>
+          <td>★★★☆☆</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
+          <td>★★★☆☆</td>
+        </tr>
       </table>
+      <h4>
+        Publications
+      </h4>
+      <ul>
+        <li>
+          C. Ng, <strong>B. Wu</strong>, et al., Astrophysical Journal, <a href="https://arxiv.org/abs/2009.07697" target="_blank" class="body-links">arXiv:2009.07697</a>
+        </li>
+      </ul>
       <h4>
         Awards
       </h4>
@@ -122,20 +141,36 @@
     </h3>
     <hr>
     <div class="content">
-      <img src="images/eta.png" alt="text analytics figure" class="odd-img">
-      <h4>
-        Text Analytics
-      </h4>
-      <p>
-        I took a course on text analytics at the end of my Master's. For the
-        final project, I applied what I learned to some sitcom transcripts. The
-        figure on the left shows the first two principal components of the
-        TF-IDF matrix comprising of The Office and Parks and Recreation. Each
-        dot is an episode, and the axis labels are my interpretation of what
-        the components mean. You can find the project on
-        <a href="https://github.com/brucefwu/ETA-sitcoms" class="body-links">Github</a>.
-        </thead>
-      </p>
+      <div class="port-content">
+        <img src="images/eta.png" alt="text analytics figure" class="odd-img">
+        <h4>
+          Text Analytics of Sitcoms
+        </h4>
+        <ul>
+          <li>Python, SQL</li>
+          <li><a href="https://github.com/brucefwu/ETA-sitcoms" target="_blank" class="body-links">Go to Github repo</a></li>
+        </ul>
+      </div>
+      <div class="port-content">
+        <img src="images/scalc.png" alt="semantic calculator" class="even-img">
+        <h4>
+          Semantic Calculator
+        </h4>
+        <ul>
+          <li>Python, Node.js</li>
+          <li><a href="https://semantic-calculator.herokuapp.com/" target="_blank" class="body-links">Go to web app</a></li>
+        </ul>
+      </div>
+      <div class="port-content">
+        <img src="images/zbingo.png" alt="Zoom bingo" class="odd-img">
+        <h4>
+          Zoom Bingo
+        </h4>
+        <ul>
+          <li>jQuery, Node.js, MongoDB</li>
+          <li><a href="https://zbingo.herokuapp.com/" target="_blank" class="body-links">Go to web app</a></li>
+        </ul>
+      </div>
     </div>
   </section>
 
