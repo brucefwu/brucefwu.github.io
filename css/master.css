@@ -125,6 +125,14 @@ ul {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .content {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 .quals-tb {
   table-layout: fixed;
   width: 100%;
@@ -132,7 +140,7 @@ ul {
 
 .coding-tb {
   display: inline;
-  margin-right: 30px;
+  margin-right: 2.5%;
 }
 
 .port-content {
