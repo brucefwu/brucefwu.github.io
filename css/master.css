@@ -57,7 +57,7 @@ p {
 hr {
   border: 0;
   height: 1px;
-  width: 80%;
+  width: 90%;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #00909E, rgba(0, 0, 0, 0));
   margin: 0 auto 20px;
 }
@@ -82,24 +82,15 @@ ul {
   height: 70px;
   position: fixed;
   top: 0;
-  text-align: left;
   z-index: 1;
-}
-
-.bruce {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 47px 0 23px;
-  line-height: 70px;
 }
 
 .navlinks {
   color: white;
   font-size: 1.5rem;
+  font-weight: bold;
   text-decoration: none;
-  margin: 0 23px;
+  margin: 0 2.5%;
   line-height: 70px;
 }
 
@@ -128,7 +119,7 @@ ul {
 @media only screen and (max-width: 870px) {
   .content {
     text-align: left;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 }
@@ -139,8 +130,8 @@ ul {
 }
 
 .coding-tb {
+  table-layout: fixed;
   display: inline;
-  margin-right: 2.5%;
 }
 
 .port-content {
